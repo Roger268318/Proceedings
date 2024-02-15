@@ -1,0 +1,11 @@
+﻿global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Mvc.Authorization;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection.Extensions;
+global using Microsoft.IdentityModel.Tokens;
+global using Proceedings.EFCore.Repositories.DataContext;
+global using Proceedings.EFCore.Repositories.Entities.Identity;
+global using System.Globalization;
+global using System.Text;

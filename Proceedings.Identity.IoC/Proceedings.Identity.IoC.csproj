@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proceedings.EFCore.Repositories\Proceedings.EFCore.Repositories.csproj" />
+    <ProjectReference Include="..\Proceedings.Identity.Controllers\Proceedings.Identity.Controllers.csproj" />
+    <ProjectReference Include="..\Proceedings.Identity.Presenters\Proceedings.Identity.Presenters.csproj" />
+    <ProjectReference Include="..\Proceedings.Identity.UsesCases\Proceedings.Identity.UsesCases.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aggregates\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Interfaces\Controllers\" />
+    <Folder Include="Interfaces\Presenters\" />
+    <Folder Include="Interfaces\Ports\" />
+    <Folder Include="Interfaces\Repositories\Security\" />
+    <Folder Include="ValueObjects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proceedings.Entities\Proceedings.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
